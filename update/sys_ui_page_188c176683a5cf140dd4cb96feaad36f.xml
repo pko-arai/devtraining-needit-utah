@@ -11,6 +11,8 @@
     The NeedIt Scripted API provides methods for interacting with data from the NeedIt application including:
     <ul>
         <li>GET ni_getinfo: Get aggregate (count) information for records for a specific user from the NeedIt table. The records are grouped by Request type. The response includes the total number of NeedIt records for the user (integer), the count of NeedIt records for each Request type (array of objects), and user information (object).</li>
+		
+        <li>GET ni_getinfo(v2): Has all the same features as v1 but also includes a custom error message if the request passes an invalid user name.</li>
     </ul>
 </j:jelly>]]></html>
         <name>needit_api_documentation</name>
@@ -19,14 +21,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-21 13:16:11</sys_created_on>
         <sys_id>188c176683a5cf140dd4cb96feaad36f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>needit_api_documentation</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ui_page_188c176683a5cf140dd4cb96feaad36f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-21 13:16:11</sys_updated_on>
+        <sys_updated_on>2026-06-27 09:36:20</sys_updated_on>
     </sys_ui_page>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>188c176683a5cf140dd4cb96feaad36f</id>
